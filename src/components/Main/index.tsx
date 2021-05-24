@@ -1,2 +1,4 @@
-const Main = () => <h1>React Avançado</h1>
+import * as S from './styles'
+
+const Main = () => <S.Wrapper>React Avançado</S.Wrapper>
 export default Main

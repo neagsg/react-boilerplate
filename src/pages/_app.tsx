@@ -8,7 +8,11 @@ function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Next.js - Boilerplate</title>
-        {/* <link rel="shortcut icon" href="" type="image/x-icon" /> */}
+        <link
+          rel="shortcut icon"
+          href="/img/icon-192.png"
+          type="image/x-icon"
+        />
         <meta name="description" content="A simple project" />
       </Head>
       <Component {...pageProps} />
